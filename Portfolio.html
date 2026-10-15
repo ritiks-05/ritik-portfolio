@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritik Kumar | Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      font-family: 'Inter', sans-serif;
+      height: 100%;
+      background: #0d0d0d;
+      color: #f0f0f0;
+      scroll-behavior: smooth;
+      position: relative;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      opacity: 0.08;
+      z-index: -1;
+    }
+    header {
+      background: #0d0d0d;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+    header a {
+      margin: 0 0.5rem;
+    }
+    section {
+      max-width: 960px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+      animation: fadeIn 1s ease-in-out;
+    }
+    h2 {
+      border-left: 4px solid #c08457;
+      padding-left: 0.6rem;
+      margin-top: 2.5rem;
+      font-size: 1.6rem;
+      color: #fff;
+    }
+    ul {
+      list-style: none;
+      margin-top: 1rem;
+    }
+    li {
+      margin-bottom: 1rem;
+      padding: 0.7rem;
+      border-radius: 8px;
+      background: #121212;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    li:hover {
+      transform: translateY(-4px);
+      box-shadow: 2px 2px 18px rgba(192, 132, 87, 0.4);
+    }
+    a {
+      color: #c08457;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+    a:hover {
+      color: #ffb478;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: #111;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ritik Kumar</h1>
+    <p>B.Tech CSE @ RIT | Web Dev • CA-@Techfest(IIT BOMBAY) • Builder</p>
+    <p>
+      <a href="https://www.linkedin.com/in/ritikkumargupta05" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/ritiks-05" target="_blank">GitHub</a> |
+      <a href="mailto:ritik009gupta9155@gmail.com">ritik009gupta9155@gmail.com</a>
+    </p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m Ritik, a second-year B.Tech CS student who enjoys turning ideas into simple, usable websites. I work mainly on the frontend — think clean UI, quick feedback, and practical structure. I’ve led dev efforts in team projects and hackathons, and I’m currently learning React and Firebase. I also serve as a Campus Ambassador for Techfest (IIT Bombay), blending outreach and tech work. Always curious, always building.
+    </p>
+
+    <h2>Tech Stack</h2>
+    <ul>
+      <li><strong>Languages:</strong> C , Java (beginner)</li>
+      <li><strong>Frontend:</strong> HTML, CSS, Tailwind, React (learning)</li>
+      <li><strong>Tools:</strong> Git, Figma, MS Office, Eclipse</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Sunwai – Civic Issue Platform</strong><br />
+        Web app for users to report civic issues like potholes or garbage. Admin panel allows sorting/filtering and updating status.<br />
+        <em>Stack:</em> HTML, CSS, JS, Firebase<br />
+        <em>Role:</em> Frontend lead (UI simplified, not deep UX)
+      </li>
+      <li>
+        <strong>To-Do List Web App</strong><br />
+        Desktop GUI task app built in Java Swing with task management features.<br />
+        <em>Platform:</em> Eclipse IDE
+      </li>
+    </ul>
+
+    <h2>Hackathons & Leadership</h2>
+    <ul>
+      <li><strong>Campus Ambassador – Techfest (IIT Bombay)</strong></li>
+      <li>Blind Coding Challenge – Participant</li>
+      <li>Triwizardathon 1.0 – Hackathon participant (Web + Civic Tech)</li>
+      <li>Hack4Bihar 2025 – Team Lead for Sunwai Project</li>
+      <li>Frontend & UI lead (keeping it functional) for college projects</li>
+     
+    </ul>
+
+    <h2>Certifications</h2>
+    <ul>
+      <li>Oracle Certified Associate, Java SE Programmer – Issued by Oracle</li>
+      <li>KYP – Bihar Govt: IT, Communication & Soft Skills</li>
+    </ul>
+
+    <h2>Currently Looking For</h2>
+    <p>
+      Frontend internships where I can ship fast, learn by building, and contribute meaningfully.
+    </p>
+  </section>
+
+  <footer>
+    Designed by Ritik Kumar • Built with 💻 and ☕
+  </footer>
+</body>
+</html>
